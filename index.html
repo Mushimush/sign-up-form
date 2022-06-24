@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=League+Gothic&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="lhs-content">
+            <div class="logo">
+                <img class="picture" src="images/odin-lined.png" alt="logo">
+                <h1>Odin</h1>
+            </div>
+        </div>
+        <div class="rhs-content">
+            <div class="signup-header">
+                <p>An adventure of a lifetime awaits!</p>
+                <p class="remote-text">Sign up <em>now</em> to get started</p>
+            </div>
+            <form class="form" action="#">
+                <p class="form-title">Let's do this!</p>
+                <div class="input">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                
+                <div class="input">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                
+                <div class="input">
+                    <label for="phone-number">Phone number</label>
+                    <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                </div>
+                
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                
+                <div class="input">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+                <div class="create-account"><button type="submit">Create Account</button></div>
+            </form>
+            <div class="log-in"><p>Already have an account?</p>
+            <a href="#">Log in</a></div>
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
